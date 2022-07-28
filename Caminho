@@ -1,0 +1,21 @@
+
+
+
+
+
+log = input('Defina seu nome de usuário?: ')
+sen = input('Defina sua senha!: ')
+print('FAÇA SEU LOGIN!!!')
+login = input('Digíte seu usuário!: ')
+senha = input('Digíte sua senha!: ')
+if log == login:
+    print('Usuário OK!')
+else:
+    print('Usuário inválido!')
+    if sen == senha:
+        print('Senha correta!')
+    else:
+        print('Senha Incorreta!')
+
+a = log.count()
+print(a)
