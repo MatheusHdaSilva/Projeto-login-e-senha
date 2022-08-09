@@ -1,5 +1,5 @@
-from itertools import count
-
-
-frase = 123456789.count()
-print(5)
+from collections import Counter
+a = int(input('Preecha o campo: '))
+conta = Counter(a)
+soma = 0 + conta
+print(soma)
